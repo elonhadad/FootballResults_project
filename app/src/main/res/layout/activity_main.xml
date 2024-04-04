@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnAddMatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_match"/>
+
+    <Button
+        android:id="@+id/btnViewMatches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_matches_list"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_matches"/>
+
+    <Button
+        android:id="@+id/btnViewTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_table"/>
+</LinearLayout>

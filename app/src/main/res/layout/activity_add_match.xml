@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/city"
+        android:padding="12dp"
+        android:inputType="text"
+        android:autofillHints="addressCity"/>
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/date"
+        android:focusable="false"
+        android:padding="12dp"
+        android:onClick="showDatePickerDialog"
+        android:inputType="date"
+        android:autofillHints="date"/>
+
+    <EditText
+        android:id="@+id/editTextTeamA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/team_a"
+        android:padding="12dp"
+        android:inputType="textPersonName"
+        android:autofillHints="name"/>
+
+    <EditText
+        android:id="@+id/editTextTeamB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/team_b"
+        android:padding="12dp"
+        android:inputType="textPersonName"
+        android:autofillHints="name"/>
+
+    <EditText
+        android:id="@+id/editTextResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/result_e_g_3_0"
+        android:padding="12dp"
+        android:inputType="text"
+        android:autofillHints="none"/>
+
+    <Button
+        android:id="@+id/btnSaveMatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_match"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FootballResults</string>
+    <string name="view_table">טבלה</string>
+    <string name="add_match">הוסף משחק</string>
+    <string name="view_matches_list">תוצאות משחקים</string>
+    <string name="search_matches">חפש משחק</string>
+    <string name="result_e_g_3_0">תוצאה (לדוגמה: 3-0)</string>
+    <string name="save_match">שמור</string>
+    <string name="team_b">קבוצת חוץ</string>
+    <string name="team_a">קבוצה מארחת</string>
+    <string name="date">תאריך</string>
+    <string name="city">עיר</string>
+    <string name="pts">PTS</string>
+    <string name="ga">GA</string>
+    <string name="gd">GD</string>
+    <string name="gf">GF</string>
+    <string name="d">D</string>
+    <string name="l">L</string>
+    <string name="w">W</string>
+    <string name="team_name">קבוצה</string>
+    <string name="rank">Rank</string>
+    <string name="update_match">ערוך</string>
+    <string name="delete_match">מחק</string>
+    <string name="goals">שערים</string>
+    <string name="delete">delete</string>
+    <string name="edit">edit</string>
+    <string name="games">MP</string>
+    <string name="mp">MP</string>
+    <string name="search">search</string>
+    <string name="search_hint">search_hint</string>
+</resources>

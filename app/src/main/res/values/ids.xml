@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewLosses" type="id" />
+    <item name="textViewDraws" type="id" />
+    <item name="textViewGoalDifference" type="id" />
+</resources>
