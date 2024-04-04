@@ -11,4 +11,4 @@ Ideal for football enthusiasts looking to keep track of their favorite games and
 Clone project and run instructions:
 ----------------------------------------
 
-Open new workspace then open terminal and clone: git clone https://github.com/elonhadad/FootballResults_project.git
+open terminal and clone: git clone https://github.com/elonhadad/FootballResults_project.git
